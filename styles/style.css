@@ -3,11 +3,9 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
 }
-
-
-
-
 
 
 /*********************/
@@ -15,12 +13,18 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:#000000;
+	--color-background:#ffffff;
 }
+/* basis styling */
+#myVideo{
+width: 100%;
+aspect-ratio: 375/600;
+	display: block;
+	object-fit: cover;
+	margin-bottom: 2%;
 
-
-
+}
 
 
 /****************/
@@ -29,3 +33,138 @@
 
 /* jouw code */
 
+
+body{
+	font-family:Helvetica, Arial, sans-serif ;
+	font-size: medium;
+}
+
+.nike{
+	width: 5em;
+	height: auto;
+	display: block;
+	padding-left: 1em;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000000;
+}
+nav a{
+	color: inherit;
+	text-decoration: none;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	gap:1rem;
+	color: #000000;
+}
+
+.do-it{
+	position: absolute;
+	bottom: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+}
+.button-vid{
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: white;
+  color: black;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.ad{
+  width: 100%;
+  aspect-ratio: 375 / 600;   
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;  
+  padding: 1rem;
+  color: white;
+  margin-bottom: 2%;
+}
+
+.ad figcaption{
+	max-width: 90%;
+}
+
+.ad p{
+	margin:0;
+	font-size: 0,9rem;
+}
+.ad h2{
+	margin: 0,3rem;
+	font-size: 1.5rem;
+	line-height: 1,2;
+	font-weight: 500;
+}
+
+.button-ad{
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: white;
+  color: black;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.shoes-ad{
+	margin-top: 2em ;
+	margin-left: 3em;
+	font-weight:550;
+	font-size:x-large;
+
+}
+
+.nike-showcase{
+display:flex;
+overflow-x: auto;
+scroll-snap-type: x;
+scroll-behavior: smooth;
+overscroll-behavior-x: contain;
+gap: 1em;
+}
+.nike-showcase figure{
+	text-align: center;
+}
+
+.nike-showcase img{
+ width: 19em;
+ height: auto;
+}
+
+img{
+	width: 24em;
+	height:auto
+}
+
+.button-shoes{
+  display:inline-block;
+  padding: 0.5rem 1.2rem;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 2em;
+  font-weight: bold;
+  margin-bottom: 4em;
+}
