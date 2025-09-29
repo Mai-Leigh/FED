@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepagina 
-  <img src="images/homescreen.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/homescreen.png" width="375px" alt="dit is de homescreen scherm">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   join us 
-  <img src="images/joinscreen.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/join.png" width="375px" alt="dit is de join us scherm">
  
 </details>
 
@@ -52,12 +52,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  
+  Volgens de website zelf zijn ze toegangelijk op verschillende vlakken zoals: inzoomen tot 200%, toetsenbord navigatie, screen reader en spraak herkenning software die op verschillende browers en apparaten werkt waaronder: Windows, macOS, iOS, and Android. Het uitproberen van de toetsenbord navigatie ging soepel en daar had duidde ik niet tegen problemen aan. Bij het gebruik van de screenreader daarintegen merkte ik het best lastig was om te volgen en daarbij ook dat de alt teksten van videos of foto's er niet waren. Ik ging langs een paar foto's en de screenreader las alleen de caption erbij en de link maar het was daardoor lastig te volgen. Ik ging mij namelijk voorstellen dat als ik hier op moest rekenen, dat het mijn temninste alle informatie zou geven. Een andere bevinding was dat ik kon inzoomen tot 300% inplaats van 200%.
+ <img src="readme-images/websettings.png" width="375px" alt="breakdown van de hele pagina">
 
 </details>
 
@@ -65,17 +66,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/homescreen.png" width="375px" alt="breakdown van de hele pagina">
+
+  ### de hele pagina: 
+  <img src="readme-images/join.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownhome.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdownjoin.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 

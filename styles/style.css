@@ -168,3 +168,39 @@ img{
   font-weight: bold;
   margin-bottom: 4em;
 }
+
+details a{
+	text-decoration: none;
+	font-size: 0,95rem;
+	margin-left: 2em;
+	color:#898989;
+}
+
+
+details summary{
+	margin-top: 1em ;
+	margin-left:1em;
+	font-weight:325;
+	font-size: 1.3rem;
+	list-style: none;
+ padding-bottom: 1em;
+}
+
+details li{
+	padding-top: 1em;
+	padding-bottom:1em;
+
+}
+
+.details-twee summary{
+	border-top: 0.01rem solid #c3c3c3;
+	padding: 0.8rem 0;
+	margin:1em;
+	padding-bottom: 0;
+	font-size: medium;
+}
+
+.icoon{
+	display: flex;
+	flex-direction: row;
+}
